@@ -19,7 +19,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.send("Syllabus API is running...");
+  res.send("API is running...");
 });
 
 app.use("/api/syllabus", syllabusRoutes);
